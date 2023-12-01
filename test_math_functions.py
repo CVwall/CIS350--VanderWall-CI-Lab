@@ -14,3 +14,9 @@ def test_calc_multiply_fail():
 def test_calc_divide():
  output = divide_numbers(10,2)
  assert output == 5
+def test_mod():
+ output = mod_numbers(5, 5)
+ assert output == 0
+def test_power():
+ output = power_numbers(4, 2)
+ assert output == 16
